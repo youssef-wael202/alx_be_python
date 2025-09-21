@@ -2,7 +2,7 @@ from unittest import case
 task = input("Enter your task: ")
 priority = input ("Priority (high/medium/low): ")
 #Reminder: 'Finish project report' is a high priority task that requires immediate attention today!
-time_bound = input ("Is it time-bound? ")
+time_bound = input ("Is it time-bound? (yes/no):")
 match priority:
     case "high":
         if time_bound == "yes":
